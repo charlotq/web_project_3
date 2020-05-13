@@ -5,12 +5,19 @@
 
 .lead {
   width: 90vw;
-  margin: 0 auto;
-  padding-bottom: 92px;
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
     width: 100%;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+    margin-bottom: 64px;
   }
 }
