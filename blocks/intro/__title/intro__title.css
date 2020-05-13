@@ -1,7 +1,7 @@
 .intro__title {
   width: 690px;
   font-weight: 900;
-  margin-left: 5vw;
+  margin-left: 15vw;
   font-style: normal;
   font-size: 54px;
   line-height: calc(58px/54px);
@@ -9,9 +9,16 @@
   text-align: left;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro__title {
+    margin-left: 5vw;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .intro__title {
     width: 720px;
+    margin-left: 5vw;
   }
 }
 
@@ -20,5 +27,6 @@
     width: 288px;
     font-size: 32px;
     line-height: calc(35px/32px);
+    margin-left: 5vw;
   }
 }

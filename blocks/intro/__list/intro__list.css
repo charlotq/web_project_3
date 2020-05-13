@@ -4,7 +4,7 @@
   padding-left: 0;
   list-style: none;
   width: 690px;
-  margin-left: 5vw;
+  margin-left: 15vw;
   font-style: normal;
   font-weight: normal;
   list-style: none;
@@ -14,10 +14,17 @@
   text-align: left;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro__list {
+    margin-left: 5vw;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .intro__list {
     width: 720px;
     margin-bottom: 88px;
+    margin-left: 5vw;
   }
 }
 
@@ -25,5 +32,6 @@
   .intro__list {
     width: 288px;
     margin-bottom: 64px;
+    margin-left: 5vw;
   }
 }

@@ -1,7 +1,7 @@
 @import url('./__lang/header__lang.css');
 
 .header {
-  width: 90vw;
+  width: 70vw;
   margin: 0 auto 58px;
   padding-top: 34px;
   display: flex;
