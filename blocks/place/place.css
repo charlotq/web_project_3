@@ -8,9 +8,13 @@
 
 .place {
   width: 70vw;
-  display: flex;
-  margin: 0 auto 80px;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px 5vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -28,6 +32,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    display: flex;
     flex-direction: column;
     margin-bottom: 48px;
     width: 100%;
