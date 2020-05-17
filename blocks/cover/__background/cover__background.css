@@ -1,0 +1,14 @@
+.cover__background {
+  margin: 0 auto;
+  width: 90vw;
+  height: calc(0.625*90vw);
+  background-image: url('../../../image/__background.png');
+  background-size: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__background {
+    width: 100%;
+    height: calc(0.625*100vw);
+  }
+}

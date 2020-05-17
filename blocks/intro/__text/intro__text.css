@@ -4,8 +4,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: calc(34px/24px);
-  color: #FFF;
+  line-height: 1.41;
+  color: #fff;
   text-align: left;
 }
 
@@ -27,7 +27,7 @@
   .intro__text {
     width: 288px;
     font-size: 24px;
-    line-height: calc(30px/24px);
+    line-height: 1.25;
     margin-left: 5vw;
   }
 }

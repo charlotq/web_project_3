@@ -1,9 +1,11 @@
-@import url('./__lang/header__lang.css');
+@import url('./__lang-link/header__lang-link.css');
 
 .header {
   width: 70vw;
   margin: 0 auto 58px;
   padding-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
