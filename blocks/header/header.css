@@ -1,7 +1,7 @@
 @import url('./__lang-link/header__lang-link.css');
 
 .header {
-  width: 70vw;
+  width: 984px;
   margin: 0 auto 58px;
   padding-top: 34px;
   display: -webkit-box;
@@ -9,14 +9,22 @@
   display: flex;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .header {
-    padding-top: 20px;
+    width: 928px;
+    margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1023px) {
   .header {
-    margin-bottom: 50px;
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 288px;
+    padding-top: 20px;
   }
 }
