@@ -1,4 +1,5 @@
 # Project 3: From Portland to Portland
+[Link to the site](https://charlotq.github.io/web_project_3/index.html)
 
 ### Overview
 * Intro
@@ -15,6 +16,7 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 
 Good luck and have fun!
+Thanks!

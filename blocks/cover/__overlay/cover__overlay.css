@@ -1,4 +1,5 @@
 .cover__overlay {
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

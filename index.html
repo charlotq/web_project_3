@@ -13,19 +13,23 @@
     <div class="page">
       <header class="header">
         <img class="logo" src="./image/logo.svg" alt="The USA">
-        <a class="header__lang-link" href="index.html">En</a>
-        <a class="header__lang-link" href="#">Es</a>
+          <ul class="header__lang-links">
+            <li><a class="header__lang-link header__lang-link_active_active" href="index.html">En</a></li>
+            <li><a class="header__lang-link" href="#">Es</a></li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
           <h1 class="lead__title">From Portland to Portland</h1>
           <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-          <img class="lead__img" alt="Portland" src="./image/kalegin-michail-179870-unsplash.png">
-          <p class="lead__caption">Your journey starts here</p>
+          <figure class="lead__figure">
+            <img class="lead__img" alt="Portland" src="./image/kalegin-michail-179870-unsplash.png">
+            <figcaption class="lead__caption">Your journey starts here</figcaption>
+          </figure>
         </section>
         <section class="intro">
           <h2 class="intro__title">Know the country you live in a little better</h2>
-          <p class="intro__text">That's exactly what we have arranged for you via this travel story</p>
+          <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
           <p class="intro__text">
             Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland,
             Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car
@@ -42,18 +46,20 @@
           </ul>
         </section>
         <section class="photo-grid">
-          <img class="photo-grid__item" alt="road" src="./image/__item-11.png">
-          <img class="photo-grid__item" alt="lake" src="./image/__item-10.png">
-          <img class="photo-grid__item" alt="birds" src="./image/__item-9.png">
-          <img class="photo-grid__item" alt="forest" src="./image/__item-8.png">
-          <img class="photo-grid__item" alt="fog" src="./image/__item-7.png">
-          <img class="photo-grid__item" alt="mountains" src="./image/__item-6.png">
-          <img class="photo-grid__item" alt="mountains" src="./image/__item-5.png">
-          <img class="photo-grid__item" alt="flower" src="./image/__item-4.png">
-          <img class="photo-grid__item" alt="hills" src="./image/__item-3.png">
-          <img class="photo-grid__item" alt="oasis" src="./image/__item-2.png">
-          <img class="photo-grid__item" alt="birds" src="./image/__item-1.png">
-          <img class="photo-grid__item" alt="road" src="./image/__item.png">
+          <ul class="photo-grid__items">
+            <li><img class="photo-grid__item" alt="road" src="./image/__item-11.png"></li>
+            <li><img class="photo-grid__item" alt="lake" src="./image/__item-10.png"></li>
+            <li><img class="photo-grid__item" alt="birds" src="./image/__item-9.png"></li>
+            <li><img class="photo-grid__item" alt="forest" src="./image/__item-8.png"></li>
+            <li><img class="photo-grid__item" alt="fog" src="./image/__item-7.png"></li>
+            <li><img class="photo-grid__item" alt="mountains" src="./image/__item-6.png"></li>
+            <li><img class="photo-grid__item" alt="mountains" src="./image/__item-5.png"></li>
+            <li><img class="photo-grid__item" alt="flower" src="./image/__item-4.png"></li>
+            <li><img class="photo-grid__item" alt="hills" src="./image/__item-3.png"></li>
+            <li><img class="photo-grid__item" alt="oasis" src="./image/__item-2.png"></li>
+            <li><img class="photo-grid__item" alt="birds" src="./image/__item-1.png"></li>
+            <li><img class="photo-grid__item" alt="road" src="./image/__item.png"></li>
+          </ul>
         </section>
         <section class="places">
           <div class="place">
@@ -63,7 +69,7 @@
                 <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" class="place__link">global.llbean.com</a>
               </div>
               <img alt="Maine" class="place__image" src="./image/maine.png">
-              <div>
+              <div class="place__main-text">
                 <p class="place__paragraph">
                   Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly
                   underrated state full of rich history and majestic natural beauty. Maine is the main state you want
@@ -86,7 +92,7 @@
                 <a href="https://www.timberland.com/timberlandpro.html" class="place__link">timberland.com</a>
               </div>
               <img alt="New Hampshire" class="place__image" src="./image/new_hampshire.png">
-              <div>
+              <div class="place__main-text">
                 <p class="place__paragraph">
                   There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and
                   beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South.
@@ -112,7 +118,7 @@
                 <a href="https://www.ge.com/about-us" class="place__link">ge.com</a>
               </div>
               <img alt="New York" class="place__image" src="./image/new_york.png">
-              <div>
+              <div class="place__main-text">
                 <p class="place__paragraph">
                 Not only famous for “The Big Apple,” the state of NY also has several other reasons for
                 going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has
@@ -133,7 +139,7 @@
                 <a href="https://www.fws.gov/refuge/erie" class="place__link">www.fws.gov</a>
               </div>
               <img alt="Erie, PA" class="place__image" src="./image/erie.png">
-              <div>
+              <div class="place__main-text">
                 <p class="place__paragraph">
                   Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another
                   town worth passing through for several different reasons. While it might be most famously known as the scene of the
@@ -158,7 +164,7 @@
                 <a href="https://www.cedarpoint.com" class="place__link">cedarpoint.com</a>
               </div>
               <img alt="Ohio" class="place__image" src="./image/ohio.png">
-              <div>
+              <div class="place__main-text">
                 <p class="place__paragraph">
                   From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem.
                   Earthquakes are surprisingly common in this particular region of North America, over 200 of which have
@@ -175,10 +181,10 @@
         </section>
         <section class="cover">
           <div class="cover__background">
-            <div class="cover__overlay">
+            <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__overlay">
                 <h2 class="cover__title">Historic Route 66</h2>
                 <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
-            </div>
+            </a>
           </div>
         </section>
       </main>
